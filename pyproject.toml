@@ -1,0 +1,48 @@
+[project]
+name = "summary-notes-for-llm-from-scratch"
+version = "0.1.0"
+description = "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4.0",
+    "tensorflow>=2.18.0",
+    "numpy>=1.26",
+    "pandas>=2.2.1",
+    "tqdm>=4.66.1",
+    "matplotlib>=3.7.1",
+    "jupyterlab>=4.0",
+    "tiktoken>=0.5.1"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+    "build>=1.2.2.post1",
+    "twine>=6.1.0"    
+]
+bonus = [
+    "blobfile>=3.0.0",
+    "chainlit>=1.2.0",
+    "huggingface_hub>=0.34.4",
+    "ipywidgets>=8.1.2",
+    "llms_from_scratch>=1.0.18",
+    "openai>=1.30.3",
+    "requests",
+    "safetensors>=0.6.2",
+    "scikit-learn>=1.3.1",
+    "sentencepiece>=0.1.99",
+    "thop",
+    "tokenizers>=0.21.1",
+    "transformers>=5.0.0",
+    "tqdm>=4.65.0",
+]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"] # Basic errors, flakes, and import sorting
+ignore = ["E722"]        # Allow bare except (useful in rapid prototyping)
