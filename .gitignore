@@ -2,8 +2,9 @@
 .vscode/
 *.code-workspace
 
-# Virtual Environment
-.venv/
+# pixi environments
+llms-from-scratch/.pixi/
+!llms-from-scratch/.pixi/config.toml
 
-# Materials
+# Misc
 materials/
