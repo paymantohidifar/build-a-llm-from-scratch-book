@@ -8,3 +8,7 @@ llms-from-scratch/.pixi/
 
 # Misc
 materials/
+
+# PyTorch
+*.pt
+*.pth
