@@ -1,6 +1,6 @@
-# Chapter 1: Understanding Large Language Models
+# **Chapter 1: Understanding Large Language Models**
 
-## 1. Introduction to Generative AI and LLMs
+## **1. Introduction to Generative AI and LLMs**
 
 Large Language Models (LLMs) represent a paradigm shift in Natural Language Processing (NLP). Early language systems relied heavily on rigid, hand-crafted rules or simple statistical techniques. In contrast, modern LLMs utilize deep learning architectures to understand, translate, and generate text with human-like fluidity. Because they are designed to produce entirely new text sequences, they are classified as a foundational branch of Generative Artificial Intelligence (GenAI).
 
@@ -11,7 +11,8 @@ The "large" in Large Language Model refers to two distinct attributes:
 
 To develop these massive architectures practically, deep learning libraries like PyTorch are used to handle the heavy computational demands.
 
-## 2. The Two-Stage Training Pipeline
+
+## **2. The Two-Stage Training Pipeline**
 
 Building a functional LLM is divided into two primary phases: **Pretraining** and **Fine-Tuning**.
 
@@ -20,7 +21,8 @@ Building a functional LLM is divided into two primary phases: **Pretraining** an
 <figcaption>Pretraining an LLM involves next-word prediction on large text datasets. A pretrained LLM can then be fine-tuned using a smaller labeled dataset.</figcaption>
 </figure>
 
-### Stage 1: Pretraining and Self-Supervised Learning
+
+### **Stage 1: Pretraining and Self-Supervised Learning**
 
 The creation of an LLM begins with pretraining on a massive corpus of unannotated, raw text. Unlike traditional neural networks that require humans to manually label training data (supervised learning), LLMs leverage self-supervised learning.
 
@@ -28,7 +30,7 @@ The training task itself is simple: next-word prediction. The model hides the up
 
 The output of this highly expensive process (with computational costs for models like GPT-3 estimating at upwards of $4.6 million) is called a base or foundation model.
 
-### Stage 2: Fine-Tuning for Downstream Tasks
+### **Stage 2: Fine-Tuning for Downstream Tasks**
 
 While a foundation model understands grammar and broad facts, it is essentially a text-completion engine. To make it useful, it undergoes fine-tuning—further training on smaller, high-quality, labeled target datasets. Fine-tuning falls primarily into two categories:
 
@@ -38,13 +40,13 @@ While a foundation model understands grammar and broad facts, it is essentially 
 Fine-tuning requires significantly fewer resources than pretraining, allowing organizations to adapt open-source foundation models to niche domains efficiently.
 
 
-## 3. Structural Mechanics: The Transformer Architecture
+## **3. Structural Mechanics: The Transformer Architecture**
 
 Virtually all dominant LLMs today are built upon the Transformer architecture, originally introduced in the seminal paper *"Improving Language Understanding by Generative Pre-Training"*.
 
 > **Terminology Note:** While "LLM" and "Transformer" are often used interchangeably, they are not identical. Transformers can be applied to non-text fields like computer vision. Similarly, researchers experiment with recurrent or convolutional networks to design alternative LLMs with lower computing overhead, though Transformer-based models remain the industry standard.
 
-### Encoder vs. Decoder Layouts
+### **Encoder vs. Decoder Layouts**
 
 The original Transformer architecture was designed for machine translation and contained two interconnected halves:
 
@@ -61,12 +63,12 @@ generative tasks and producing coherent text sequences.</figcaption>
 
 Modern generative models like the GPT family simplify this blueprint by stripping away the encoder entirely, utilizing a decoder-only architecture. Because these decoder models feed their own previous word choices back into the input sequence to predict successive words, they are classified as autoregressive models. This sequential dependency ensures that output generation maintains structural coherence over long text blocks.
 
-### The Self-Attention Mechanism
+### **The Self-Attention Mechanism**
 
 The engine driving both modules is the self-attention mechanism. Self-attention allows the model to analyze every word in a sentence simultaneously and mathematically weigh its relevance against every other word. This allows the model to resolve ambiguities (such as identifying what the word "it" refers to in a long paragraph) and successfully map complex, long-range dependencies across text sequences.
 
 
-## 4. Emergent Properties and In-Context Learning
+## **4. Emergent Properties and In-Context Learning**
 
 One of the most remarkable discoveries of deep learning scale is emergent behavior. When a decoder-only architecture is scaled up to hundreds of billions of parameters, it naturally develops complex capabilities that it was never explicitly programmed or trained to do—such as logical reasoning, code generation, translation, and document summarization.
 
@@ -76,7 +78,7 @@ Because of these emergent properties, users can interact with a trained foundati
 * **Few-Shot Learning:** Providing a handful of demonstration examples directly inside the input prompt to teach the model a specific input-output pattern before asking it to process a final prompt.
 
 
-## Chapter Summary
+## **Chapter Summary**
 
 * **Paradigm Shift:** LLMs transformed natural language processing, replacing explicit rule-based systems and simple statistical methods with deep learning approaches capable of understanding, generating, and translating language.
 * **Two-Step Training:** Models are first pretrained via self-supervised next-word prediction on massive, unlabeled text blocks to build a foundation model. They are then **fine-tuned** on small, labeled datasets to handle targeted tasks or instructions.
