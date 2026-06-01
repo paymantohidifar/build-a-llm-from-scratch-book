@@ -17,7 +17,7 @@ To develop these massive architectures practically, deep learning libraries like
 Building a functional LLM is divided into two primary phases: **Pretraining** and **Fine-Tuning**.
 
 <figure style='text-align: center'>
-<img src='../assets/fig1_1.png' alt='LLM Training Pipeline' style='width: 800px'>
+<img src='../images/fig1_1.png' alt='LLM Training Pipeline' style='width: 800px'>
 <figcaption>Pretraining an LLM involves next-word prediction on large text datasets. A pretrained LLM can then be fine-tuned using a smaller labeled dataset.</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ The original Transformer architecture was designed for machine translation and c
 * **The Decoder:** Accepts those encoded vectors and generates a brand-new output sequence, one token at a time.
 
 <figure style='text-align: center'>
-<img src='../assets/fig1_2.png' alt='Transformer Encoder/Decoder Architecture' style='width: 800px'>
+<img src='../images/fig1_2.png' alt='Transformer Encoder/Decoder Architecture' style='width: 800px'>
 <figcaption>A visual representation of the transformer’s encoder and decoder submodules. On the left, the
 encoder segment exemplifies BERT-like LLMs, which focus on masked word prediction and are primarily used for
 tasks like text classification. On the right, the decoder segment showcases GPT-like LLMs, designed for
