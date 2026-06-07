@@ -8,6 +8,8 @@ llms-from-scratch/.pixi/
 
 # Misc
 materials/
+**/README.md
+**/exercise-solutions.ipynb
 
 # PyTorch
 *.pt
