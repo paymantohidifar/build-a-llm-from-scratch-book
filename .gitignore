@@ -10,6 +10,7 @@ llms-from-scratch/.pixi/
 materials/
 **/README.md
 **/exercise-solutions.ipynb
+**/04_bonus_dataloader-intuition
 
 # PyTorch
 *.pt
