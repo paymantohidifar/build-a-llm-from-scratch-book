@@ -9,7 +9,7 @@ platforms = ["linux-64"]
 [tasks]
 test = "pytest"
 lab = "jupyter lab"
-install-pkg = "pip install --editable ."
+postinstall = "pip install --editable ."
 
 [dependencies]
 python = "3.11.*"
@@ -25,7 +25,7 @@ pixi-kernel = "*"
 [pypi-dependencies]
 importlib-metadata = ">=8.0.0" 
 tensorflow = ">=2.18.0"
-# llms-from-scratch = { path = ".", editable = true } 
+llms-from-scratch = { path = ".", editable = true } 
 
 [feature.dev.dependencies]
 pytest = ">=8.3.5"
