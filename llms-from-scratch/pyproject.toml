@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llms-from-scratch"
+dynamic = ["version"]
+description = "Personal notes on step-by-step implementation of LLMs, from scratch, in PyTorch."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Payman Tohidifar", email = "payman.tohidifar@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "tiktoken>=0.9.0",
+    "matplotlib>=3.10.0",
+    "tqdm>=4.67.1",
+    "numpy>=2.0.0",
+    "pandas>=3.0.0",
+    "importlib-metadata>=8.0.0",
+    "tensorflow>=2.18.0",
+]
+
+[tool.hatch.version]
+path = "src/llms_from_scratch/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llms_from_scratch"]
