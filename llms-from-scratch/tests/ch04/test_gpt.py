@@ -5,7 +5,7 @@
 
 # File for internal use (unit tests)
 
-from gpt import main
+from llms_from_scratch.ch04.main_chapter_code.gpt import main
 
 expected = """
 ==================================================
