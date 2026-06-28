@@ -4,13 +4,13 @@ import pytest
 import torch
 import tiktoken
 
-from gpt_ch04 import GPTModel as GPTModelBase
-from gpt_ch04 import generate_text_simple
+from llms_from_scratch.ch04.kv_cache.gpt_ch04 import GPTModel as GPTModelBase
+from llms_from_scratch.ch04.kv_cache.gpt_ch04 import generate_text_simple
 
-from gpt_with_kv_cache import GPTModel as GPTModelKV1
-from gpt_with_kv_cache_optimized import GPTModel as GPTModelKV2
-from gpt_with_kv_cache import generate_text_simple_cached as generate_text_simple_cachedKV1
-from gpt_with_kv_cache_optimized import generate_text_simple_cached as generate_text_simple_cachedKV2
+from llms_from_scratch.ch04.kv_cache.gpt_with_kv_cache import GPTModel as GPTModelKV1
+from llms_from_scratch.ch04.kv_cache.gpt_with_kv_cache_optimized import GPTModel as GPTModelKV2
+from llms_from_scratch.ch04.kv_cache.gpt_with_kv_cache import generate_text_simple_cached as generate_text_simple_cachedKV1
+from llms_from_scratch.ch04.kv_cache.gpt_with_kv_cache_optimized import generate_text_simple_cached as generate_text_simple_cachedKV2
 
 
 GPT_CONFIG_124M = {
