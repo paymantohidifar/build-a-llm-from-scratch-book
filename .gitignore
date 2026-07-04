@@ -15,6 +15,7 @@ materials/
 **/exercise-solutions.ipynb
 **/04_bonus_dataloader-intuition
 personal_notes.md
+**/notebooks/**/*.pdf
 
 # PyTorch
 *.pt
