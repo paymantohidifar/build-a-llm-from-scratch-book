@@ -20,3 +20,6 @@ personal_notes.md
 # PyTorch
 *.pt
 *.pth
+
+# Model weights
+**/gpt2/
