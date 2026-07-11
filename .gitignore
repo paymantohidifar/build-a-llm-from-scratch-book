@@ -23,3 +23,11 @@ personal_notes.md
 
 # Model weights
 **/gpt2/
+
+# Data
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection.zip
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/test.csv
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/train.csv
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/validation.csv
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection/SMSSpamCollection.tsv
+llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection/readme
