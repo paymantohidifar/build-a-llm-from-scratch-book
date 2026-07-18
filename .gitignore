@@ -5,17 +5,9 @@
 # Python
 **/__pycache__/
 
-# pixi environments
-llms-from-scratch/.pixi/
-!llms-from-scratch/.pixi/config.toml
-
-# Misc
-materials/
-# **/README.md
-**/exercise-solutions.ipynb
-**/04_bonus_dataloader-intuition
-personal_notes.md
-**/notebooks/**/*.pdf
+# Pixi
+**/.pixi/
+!**/.pixi/config.toml
 
 # PyTorch
 *.pt
@@ -25,10 +17,16 @@ personal_notes.md
 # Model weights
 **/gpt2/
 
+# Misc
+materials/
+**/exercise-solutions.ipynb
+personal_notes.md
+
 # Data
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection.zip
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/test.csv
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/train.csv
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/validation.csv
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection/SMSSpamCollection.tsv
-llms-from-scratch/notebooks/ch06/01_main-chapter-code/sms_spam_collection/readme
+*.pdf
+**/sms_spam_collection.zip
+**/test.csv
+**/train.csv
+**/validation.csv
+**/sms_spam_collection/SMSSpamCollection.tsv
+**/sms_spam_collection/readme
