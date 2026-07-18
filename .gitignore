@@ -20,6 +20,7 @@ personal_notes.md
 # PyTorch
 *.pt
 *.pth
+*.safetensors
 
 # Model weights
 **/gpt2/
