@@ -3,7 +3,7 @@
 ### 1. Clone the Repository
 
 Clone the repository to your local machine. This command checks out the `main`
-branch and places it into a clean `gpt2-classifier` directory:
+branch and places it into a clean `build-a-llm-from-scratch-book` directory:
 
 ```bash
 git clone https://github.com/paymantohidifar/build-a-llm-from-scratch-book.git --branch main
