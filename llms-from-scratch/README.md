@@ -1,4 +1,4 @@
-# Environment Setup Guide
+# Environment Installation Guide
 
 ### 1. Clone the Repository
 
