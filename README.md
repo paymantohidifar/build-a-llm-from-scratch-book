@@ -4,7 +4,7 @@ Welcome! This repository serves as a centralized hub for my personal study notes
 
 ## About This Repository
 
-The purpose of this space is to provide a structured, easily accessible technical reference for students and practitioners. It is designed to facilitate quick reviews of core concepts, algorithmic code snippets, and custom deep learning modules covered throughout the book, including its complementary main and bonus notebook suites.
+The purpose of this space is to provide a structured, easily accessible technical reference for AI/ML students and practitioners. It is designed to facilitate quick reviews of core concepts, algorithmic code snippets, and custom deep learning modules covered throughout the book, including its complementary main and bonus notebook suites.
 
 * **Environment Orchestration:** I have provided a comprehensive, lean configuration guide to provision deterministic local or cloud runtime environments using `uv` and `pixi`. For setup instructions, please refer to the [Environment Installation Guide](./llms-from-scratch/README.md).
 * **Cloud Runtimes:** All main notebooks include direct links to launch the execution context immediately on Google Colab.
