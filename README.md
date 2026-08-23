@@ -60,6 +60,7 @@ Click the links below to access detailed notes, code blocks, and execution steps
     * Extracting LLM-generated instruction responses for evaluation
     * Evaluating an instruction-fine-tuned LLM
 
+* [Appendix E: Parameter-efficient fine-tuning with LoRA](./llms-from-scratch/notebooks/appendix-E/01_main-chapter-code/appendix-E.ipynb)
 
 ---
 
