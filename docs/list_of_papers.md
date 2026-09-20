@@ -4,3 +4,4 @@
 2. [Lei Ba, J. et. al. (2016) Layer Normalization.](https://arxiv.org/pdf/1607.06450)
 3. [Hendrycks, D. and Gimpel, K. (2016) Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415)
 4. [Hu, EJ., et. al. (2021) LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+5. [Chowdhery, A. et. al. (2022) PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
