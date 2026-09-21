@@ -78,6 +78,15 @@ The original foundational materials and educational exercises derived from the w
 
 ---
 
+## Additional Learning Resources
+
+There are many other resources that you can learn LLMs from. I recommend the two following resources. First one deep-dives into theory and mathematical/statistical principles and build intuition about relevant concepts bottom-up. You will experience many "Ahaa!!" moments, as you read through it. The second resource is one of the most comprehensive materials out there that covers pretty much everything from older concepts to modern SOTA concepts in language modeling and LLMs. Both resources are generously offered for free by the authors. So take the advantage of it and enjoy learning!
+
+1. [Building LLMs from First Principles by Taras Tsugrii](https://github.com/ttsugriy/llm-first-principles)
+2. [Language AI Handbook by Michael Brenndoerfer](https://mbrenndoerfer.com/books/language-ai-handbook)
+
+---
+
 ## Acknowledgments & Citations
 
 This repository is built entirely upon the excellent technical implementations and architectural principles introduced in *Build a Large Language Model (from scratch)* by Sebastian Raschka.
